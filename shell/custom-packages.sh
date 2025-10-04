@@ -42,3 +42,23 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-turboacc"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-lucky lucky"
 # 集客AC
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-gecoosac gecoosac"
+#文件管理
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-filebrowser luci-i18n-filebrowser-zh-cn"
+#无线网卡
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES ath9k-htc-firmware "
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-ath9k-htc"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-ath"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-cfg80211"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-mac80211"
+#vlmcsd
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES vlmcsd"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-vlmcsd luci-i18n-vlmcsd-zh-cn"
+#磁盘管理
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-diskman luci-i18n-diskman-zh-cn"
+#终端
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-ttyd luci-app-ttyd-zh-cn"
+#wpa
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES wpa-supplicant"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES hostapd"
+#lsusb
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES usbutils"
