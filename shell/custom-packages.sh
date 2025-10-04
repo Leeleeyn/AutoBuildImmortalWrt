@@ -37,13 +37,13 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-turboacc"
 # 应用过滤 openappfilter.com
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-appfilter luci-i18n-appfilter-zh-cn"
 # 设置向导 by sirpdboy
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-netwizard luci-i18n-netwizard-zh-cn"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-netwizard luci-i18n-netwizard-zh-cn"
 # Lucky大吉 
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-lucky lucky"
 # 集客AC
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-gecoosac gecoosac"
 #文件管理
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-filebrowser-go luci-i18n-filebrowser-go-zh-cn"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-filebrowser"
 #无线网卡
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES ath9k-htc-firmware "
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-ath9k-htc"
@@ -56,7 +56,7 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-vlmcsd luci-i18n-vlmcsd-zh-cn"
 #磁盘管理
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-diskman luci-i18n-diskman-zh-cn"
 #终端
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-ttyd luci-app-ttyd-zh-cn"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-ttyd"
 #wpa
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES wpa-supplicant"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES hostapd"
