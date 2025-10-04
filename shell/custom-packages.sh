@@ -43,7 +43,7 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-turboacc"
 # 集客AC
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-gecoosac gecoosac"
 #文件管理
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-filebrowser luci-i18n-filebrowser-zh-cn"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-filebrowser-go luci-i18n-filebrowser-go-zh-cn"
 #无线网卡
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES ath9k-htc-firmware "
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-ath9k-htc"
